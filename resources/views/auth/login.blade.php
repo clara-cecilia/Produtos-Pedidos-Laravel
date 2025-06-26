@@ -64,7 +64,6 @@
         </form>
         <div class="footer">
             <a href="{{ route('register') }}" class="text-white">Não tem uma conta? Registre-se</a><br>
-            
         </div>
     </div>
 

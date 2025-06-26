@@ -84,7 +84,7 @@ Route::prefix('pedidos')->name('pedidos.')->group(function () {
 // Rotas de usuários
 Route::prefix('usuarios')->name('usuarios.')->middleware('auth')->group(function () {
     Route::get('/', [UsuarioController::class, 'index'])->name('index');
-    Route::get('/criar', [UsuarioController::class, 'create'])->name('create');
+    Route::get('/criar', [UsuarioController::class, 'create'])->name('create'); 
     Route::post('/', [UsuarioController::class, 'store'])->name('store');
     Route::get('/{id}', [UsuarioController::class, 'show'])->name('show');
     Route::get('/{id}/editar', [UsuarioController::class, 'edit'])->name('edit');

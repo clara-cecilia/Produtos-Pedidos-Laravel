@@ -15,7 +15,7 @@ class UsuarioController extends Controller
     // Cadastro de novos usuários
     public function create()
     {
-        return view('usuarios.create');
+        return view('auth.register');
     }
 
     public function store(Request $request)

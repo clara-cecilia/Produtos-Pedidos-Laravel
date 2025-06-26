@@ -9,6 +9,7 @@
 2. **Acesso**
    - Usuários não autenticados só podem ver a página de login/cadastro
    - Usuários comuns só podem acessar (ler, editar, excluir) suas próprias informações
+   - Usuários so podem ver email de outros usuarios
 
 3. **Gerenciamento de Conta**
    - Usuários não podem excluir suas contas permanentemente
